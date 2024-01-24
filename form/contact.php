@@ -4,23 +4,23 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <YOUR_EMAIL@DOMAIN.COM>';
+$from = 'Demo contact form <rodalarcon@gmail.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <YOUR_EMAIL@DOMAIN.COM>';
+$sendTo = 'Demo contact form <rodalarcon@gmail.com>';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Mensaje de mi pagina personal';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('InputName' => 'Name', 'email' => 'InputEmail', 'InputMessage' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Your message successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Su mensaje fue enviado exitosamente. ¡Gracias, me comunicaré contigo pronto!';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'Hubo un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde';
 
 /*
  *  LET'S DO THE SENDING
